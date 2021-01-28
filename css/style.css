@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 .navigation {
     list-style: none;
     padding: 0;
@@ -7,7 +12,6 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #939699;
-    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -30,6 +34,65 @@
     cursor: pointer;
 }
 
-.button-icon {
+.button-icon, .button-price {
     margin-right: 10px;
+}
+
+.slide {
+    padding: 90px 0 110px;
+}
+
+.slide-1 {
+    background: #B4D1E0 url('../img/slide-Image-1.png') no-repeat top right 30%;
+}
+.label {
+    background: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.slide-title {
+    font-family: 'Roboto Slab', serif;
+    color: #262D33;
+    font-size: 55px;
+    line-height: 70px;  
+    margin: 20px 0 15px;
+}
+
+.slide-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+    max-width: 335px;
+    margin-bottom: 40px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    min-height: 370px;
+}
+
+.card-1 {
+    background: #e3e2e3 url('../img/card-image-1.jpg') no-repeat top right;
+    background-size: cover;
+    border-radius: 10px;
 }
